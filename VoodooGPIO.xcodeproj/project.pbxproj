@@ -155,7 +155,7 @@
 		F1F172BC1F42263A00AD98FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = CoolStar;
 				TargetAttributes = {
 					F1F172C41F42263A00AD98FA = {
