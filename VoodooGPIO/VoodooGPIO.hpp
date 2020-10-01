@@ -18,17 +18,6 @@
 #ifndef VoodooGPIO_h
 #define VoodooGPIO_h
 
-// Exists in the macOS 10.15 SDK
-#ifndef IOSafeDeleteNULL
-#define IOSafeDeleteNULL(ptr, type, count)              \
-    do {                                                \
-        if (NULL != (ptr)) {                            \
-            IODelete((ptr), type, count);               \
-            (ptr) = NULL;                               \
-        }                                               \
-    } while (0)
-#endif
-
 struct pinctrl_pin_desc {
     unsigned number;
     char *name;
